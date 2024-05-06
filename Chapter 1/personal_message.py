@@ -10,8 +10,15 @@ print(name.upper())
 print(name.lower())
 print(name.title())
 
-author = 'Charles Bukowski'
+author = ' Charles Bukowski  '
 
-quote = "If you're going to try, go all the way. Otherwise, don't even start."
+quote = "If you're going to try, \tgo all the way. Otherwise, \ndon't even start."
 
-print(f'{author} once said, "{quote}"')
+
+print(f'{author.lstrip()} once said, "{quote}"')
+print(f'{author.rstrip()} once said, "{quote}"')
+print(f'{author.strip()} once said, "{quote}"')
+
+filename = ('python_notes.txt')
+
+print(filename.removesuffix('.txt'))

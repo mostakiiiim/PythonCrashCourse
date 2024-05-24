@@ -20,3 +20,13 @@ print(2*2.0)
 monthly_expense = 100_00_000_000
 
 print(monthly_expense)
+
+#python supports multiple assignment 
+
+x,y,z=10,29,49
+
+#constants
+
+#constants can be declared in python with all capital letter
+
+MAX_BUDGET= 5000

@@ -5,12 +5,12 @@ primeNumbers= [x%2!= 0 for x in numbers]
 
 print(f"Minimum number is {min(numbers)}")
 print(f"Minimum number is {max(numbers)}")
-sum=0
+res=0
 for i in numbers:
-    sum = sum + i
+    res = res + i
     i = i+1
 
-print(sum)
+print(res)
 
 #4-6
 for i in range(1,20, 2):
